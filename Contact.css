@@ -1,0 +1,28 @@
+
+fieldset{
+    background-color: aquamarine;
+    background-image: url(../../IMAGES/tumblr_m4ycfsbirP1rpj439o1_1280.jpg);
+
+}
+body{
+    background:linear-gradient(135deg,#0a0a23,#c95f5f);
+}
+h1{
+        color: #000000;
+}
+label{
+    color: #080808;
+
+}
+a{
+    color: #000000;
+}
+form{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

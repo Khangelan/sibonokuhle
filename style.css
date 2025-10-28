@@ -1,0 +1,112 @@
+.hero{
+  position:relative;
+  min-height:100vh;
+  padding:3rem;
+  color:#fff;
+  background:linear-gradient(135deg,#0a0a23,#c95f5f);
+  overflow:hidden;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin: auto;
+  justify-items: center;
+  display: grid;
+  padding: 2rem;
+  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3pudHp1b2lhdDZtY3d3MHFnaTV2YXFscmZ6aGZid21lMjc1MmU5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6hhqGnU2V3wIw/giphy.gif);
+}
+.Product-Cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: auto;
+    margin-right: 50px;
+    width: 200px;
+    padding: 160px;
+    gap: 85px;
+}
+.nav {
+  display:flex; 
+  justify-content: center; 
+  gap:2rem;
+  list-style:lower-roman;
+  margin-bottom:2rem; 
+  border-width: 250px;
+  background:linear-gradient(135deg,#0a0a23,#c95f5f);
+  left: 700px;
+  nav-left: 700px;
+  padding-left: 50px;
+
+}
+.nav a {
+  color:#fff; 
+  text-decoration:none; 
+  font-size:1.2rem;
+  transition:.3s;
+}
+
+.ProductCards img {
+  border-radius: 60px;
+  transition: transform 1.3s ease;
+}
+
+.ProductCards img:hover {
+  transform: scale(1.1);
+}
+
+fieldset{
+  border-radius: 60px;
+  background-color: #becdda;
+}
+p{
+  color: black;
+}
+h3{
+  color: rgb(13, 13, 13);
+}
+h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+p{
+  border-radius: 60px;
+  transition: transform 1.3s ease;
+}
+p text:hover{
+  transform: scale(1.1);
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3e4244; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 3s linear infinite;
+  max-width: 250;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes colorChange {
+0% { background-color: #ff0000; }
+50% { background-color: #00ff00; }
+100% { background-color: #0000ff; }
+}
+
+body {
+animation: colorChange 5s infinite;
+}
+h1{
+  text-align: center;
+}
+
+.loader {
+  position: absolute;
+  top: 910px;   /* distance from top */
+  left: 700px;  /* distance from left */
+  
+}
+
+

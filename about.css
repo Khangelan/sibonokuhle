@@ -1,0 +1,26 @@
+h1{
+        text-align: center;
+}
+body{
+    border-width: 250px;
+    background:linear-gradient(135deg,#0a0a23,#c95f5f);
+
+}
+ul{
+color: black;
+}
+li{
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+nav{
+    list-style:lower-roman;
+}
+p{
+    color: aliceblue;
+}
+nav{
+    text-align: center;
+}
